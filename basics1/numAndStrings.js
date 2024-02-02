@@ -28,9 +28,21 @@ console.log(emailTwo.toUpperCase());
 
 // const num = 5 //short hand way for declaring numbers.
 
-let num = new Number(5)
-console.log(num);
-console.log(num.toFixed(2));
+const myNumber = new Number(5.234674)
+console.log(myNumber);
+console.log(myNumber.toFixed(2));
+
+const subscribers = 100000
+console.log(subscribers.toLocaleString());
+
+//Useful stuff
+console.log(Number.MAX_VALUE);
+console.log(Math.PI);
+console.log(Math.random()); // Number between 0 and 1(0.999999...)
+console.log(Math.random()*10); // Number between 0 and 10(9.999999...)
+
+console.log(Math.floor(Math.random()*10)); // 0 to 9
+console.log(Math.floor(Math.random()*10)+1); // 1 to 10
 
 
 
