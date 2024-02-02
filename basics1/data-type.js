@@ -10,6 +10,7 @@ BigInt
 */
 
 const firstname = "kapil"
+let anotherName = firstname
 const age = 20
 const score = 30.4
 let isLoggedIn = true
@@ -47,6 +48,8 @@ const userObject = {
     age: 20,
     isLoggedIn: true
 }
+
+let anotherUser = userObject
 
 const sayHello1 = [] // Array
 const sayHello2 = {} // Object
