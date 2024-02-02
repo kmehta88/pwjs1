@@ -1,3 +1,4 @@
+/*
 // String looks like 'Hello'
 // String looks like "kapil"
 
@@ -23,3 +24,13 @@ let emailTwo = "kmehta88@hotmail.com"
 console.log(emailTwo.replace('kmehta', 'devansh'));
 console.log(emailTwo.includes('kmehta'));
 console.log(emailTwo.toUpperCase());
+*/
+
+// const num = 5 //short hand way for declaring numbers.
+
+let num = new Number(5)
+console.log(num);
+console.log(num.toFixed(2));
+
+
+
